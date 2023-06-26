@@ -1,3 +1,4 @@
+/* eslint no-console: ["error", { allow: ["warn", "error", "log"] }] */
 require('dotenv').config();
 const express = require('express');
 const connection = require('../db-config');
